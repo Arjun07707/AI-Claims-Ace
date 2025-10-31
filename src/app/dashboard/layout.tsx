@@ -11,6 +11,7 @@ import { ShieldCheck } from 'lucide-react';
 import { UserNav } from '@/components/dashboard/user-nav';
 import { SidebarNav } from '@/components/dashboard/sidebar-nav';
 import Link from 'next/link';
+import { Button } from '@/components/ui/button';
 
 export default function DashboardLayout({
   children,
